@@ -1,5 +1,3 @@
-import { ScrapeResult } from "scrape-it";
-
 export interface Product {
   heading: string;
   name: string;
@@ -12,5 +10,3 @@ export interface Product {
 export interface ProductData {
   products: Product[];
 }
-
-export type ProductCrawler = ScrapeResult<ProductData>;
